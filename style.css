@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  /* padding: 0; */
+}
+/*Header Section Start*/
+header {
+  padding: 30px 0;
+  background: black;
+  color: white;
+  text-align: center;
+}
+/*Header Section Stop*/
+/*Float & Clear Property use*/
+.floating {
+  background: coral;
+  height: 400px;
+}
+.float-1 {
+  float: left;
+  width: 50%;
+  background: darkgreen;
+  margin-top: 30px;
+}
+.float-2 {
+  float: left;
+  width: 50%;
+  background: darkolivegreen;
+  margin-top: 30px;
+  padding: 35px 0;
+}
+.float-3 {
+  clear: both;
+  background: darkorchid;
+  color: darkred;
+  padding: 15px 10px;
+}
+/*List Property use*/
+.ulist{
+  margin-bottom: 10px;
+  cursor: grab;
+}
+.ulist ul{
+  list-style: disc inside;
+}
+.olist{
+  margin-bottom: 10px;
+  cursor: wait;
+}
+.olist ol{
+  list-style: lower-roman inside;
+}
+.ilist{
+  margin-bottom: 10px;
+}
+.ilist ol{
+  list-style: inside url(img/15.png);
+  cursor: move;
+}
+.ilist ol li {
+	font-size: 30px;
+  padding: 2px 0;
+}
+/*Footer Section*/
+footer{
+  padding: 20px 0;
+  color: black;
+  background: blue;
+  cursor: crosshair;
+}
+footer p{
+  text-align: center;
+}
+/*END*/
